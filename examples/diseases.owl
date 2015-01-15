@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/doid/doid-plus-omim.owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid/doid-plus-omim.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:doid-plus-omim="http://purl.obolibrary.org/obo/doid/doid-plus-omim#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/do/subsets/test.owl">
+    </owl:Ontology>
+    
+
+
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050177">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monogenic disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050736">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autosomal dominant disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050739"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050739">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autosomal genetic disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050177"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050828">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artery disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_178"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10123">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pigmentation disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_37"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1287">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular system disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_16 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_16">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integumentary system disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_178">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1287"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3138">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acanthosis nigricans</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_10123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3627">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aortic aneurysm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_520"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_37 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_37">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_16"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_520">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aortic disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050828"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_630">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_6683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6683">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aarskog-Scott syndrome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050736"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of anatomical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_7693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_7693">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdominal aortic aneurysm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3627"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8712">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurofibromatosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050736"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_100050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100050">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aarskog Syndrome, Autosomal Dominant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_6683"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_100070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100070">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aortic Aneurysm, Familial Abdominal, 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7693"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_100100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100100">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdominal Muscles, Absence Of, With Urinary Tract Abnormality And Cryptorchidism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_100200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100200">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abducens Palsy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_100300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100300">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adams-Oliver Syndrome 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_100600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100600">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acanthosis Nigricans</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3138"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_100640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100640">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aldehyde Dehydrogenase 1 Family, Member A1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_100650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100650">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aldehyde Dehydrogenase 2 Family</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_100675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100675">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acetaminophen Metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_100700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100700">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achard Syndrome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_100800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100800">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achondroplasia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_100820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100820">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achoo Syndrome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_101000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_101000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurofibromatosis, Type Ii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_8712"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_101120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_101120">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acrocephalopolysyndactyly Type Iii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_101200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_101200">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apert Syndrome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.2.1-SNAPSHOT) http://owlapi.sourceforge.net -->
+
