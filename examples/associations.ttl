@@ -1,0 +1,1212 @@
+@prefix monarch: <http://monarchinitiative.org/abox/> .
+@prefix RO: <http://purl.obolibrary.org/obo/RO_> .
+@prefix OMIM: <http://purl.obolibrary.org/obo/OMIM_> .
+@prefix HP: <http://purl.obolibrary.org/obo/HP_> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+    
+RO:0002200 a owl:ObjectProperty .
+    
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000028 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000049 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000175 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000202 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000204 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000316 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000327 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000343 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000349 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000394 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000431 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000463 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000484 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000486 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000494 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000508 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000602 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000765 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000954 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0000974 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0001004 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0001156 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0001159 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0001371 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0001380 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0001394 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0001763 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0001972 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0002023 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0002055 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0002240 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0002816 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0003318 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0003502 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0004792 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0005190 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0006530 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0009466 .
+
+monarch:disease100050 RO:0002200 monarch:phenotype100050-pn .
+monarch:disease100050 a OMIM:100050 .
+monarch:phenotype100050-pn a HP:0010886 .
+
+monarch:disease100070 RO:0002200 monarch:phenotype100070-pn .
+monarch:disease100070 a OMIM:100070 .
+monarch:phenotype100070-pn a HP:0004953 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0000003 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0000010 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0000028 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0000072 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0000076 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0000083 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0000126 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0000144 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0000217 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0000767 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0000768 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0000772 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0000951 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0001374 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0001562 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0001629 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0001631 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0001636 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0001643 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0001762 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0001883 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0002019 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0002023 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0002205 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0002566 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0002580 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0002650 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0003272 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0003422 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0004392 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0005199 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0006703 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0010318 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0010957 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0100543 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0100589 .
+
+monarch:disease100100 RO:0002200 monarch:phenotype100100-pn .
+monarch:disease100100 a OMIM:100100 .
+monarch:phenotype100100-pn a HP:0100779 .
+
+monarch:disease100200 RO:0002200 monarch:phenotype100200-pn .
+monarch:disease100200 a OMIM:100200 .
+monarch:phenotype100200-pn a HP:0000486 .
+
+monarch:disease100200 RO:0002200 monarch:phenotype100200-pn .
+monarch:disease100200 a OMIM:100200 .
+monarch:phenotype100200-pn a HP:0011349 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0000119 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0000175 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0000204 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0000252 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0000565 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0000568 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0000965 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001156 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001249 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001250 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001252 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001263 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001302 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001362 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001547 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001596 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001629 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001631 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001636 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001642 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001762 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001770 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0001792 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0002079 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0002084 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0002092 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0002119 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0002126 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0002539 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0002558 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0004415 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0006970 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0007589 .
+
+monarch:disease100300 RO:0002200 monarch:phenotype100300-pn .
+monarch:disease100300 a OMIM:100300 .
+monarch:phenotype100300-pn a HP:0007590 .
+
+monarch:disease100600 RO:0002200 monarch:phenotype100600-pn .
+monarch:disease100600 a OMIM:100600 .
+monarch:phenotype100600-pn a HP:0000956 .
+
+monarch:disease100600 RO:0002200 monarch:phenotype100600-pn .
+monarch:disease100600 a OMIM:100600 .
+monarch:phenotype100600-pn a HP:0000962 .
+
+monarch:disease100600 RO:0002200 monarch:phenotype100600-pn .
+monarch:disease100600 a OMIM:100600 .
+monarch:phenotype100600-pn a HP:0000966 .
+
+monarch:disease100600 RO:0002200 monarch:phenotype100600-pn .
+monarch:disease100600 a OMIM:100600 .
+monarch:phenotype100600-pn a HP:0000998 .
+
+monarch:disease100600 RO:0002200 monarch:phenotype100600-pn .
+monarch:disease100600 a OMIM:100600 .
+monarch:phenotype100600-pn a HP:0001513 .
+
+monarch:disease100600 RO:0002200 monarch:phenotype100600-pn .
+monarch:disease100600 a OMIM:100600 .
+monarch:phenotype100600-pn a HP:0005978 .
+
+monarch:disease100600 RO:0002200 monarch:phenotype100600-pn .
+monarch:disease100600 a OMIM:100600 .
+monarch:phenotype100600-pn a HP:0007440 .
+
+monarch:disease100600 RO:0002200 monarch:phenotype100600-pn .
+monarch:disease100600 a OMIM:100600 .
+monarch:phenotype100600-pn a HP:0100543 .
+
+monarch:disease100640 RO:0002200 monarch:phenotype100640-pn .
+monarch:disease100640 a OMIM:100640 .
+monarch:phenotype100640-pn a HP:0001033 .
+
+monarch:disease100640 RO:0002200 monarch:phenotype100640-pn .
+monarch:disease100640 a OMIM:100640 .
+monarch:phenotype100640-pn a HP:0003533 .
+
+monarch:disease100650 RO:0002200 monarch:phenotype100650-pn .
+monarch:disease100650 a OMIM:100650 .
+monarch:phenotype100650-pn a HP:0001033 .
+
+monarch:disease100650 RO:0002200 monarch:phenotype100650-pn .
+monarch:disease100650 a OMIM:100650 .
+monarch:phenotype100650-pn a HP:0003533 .
+
+monarch:disease100675 RO:0002200 monarch:phenotype100675-pn .
+monarch:disease100675 a OMIM:100675 .
+monarch:phenotype100675-pn a HP:0000952 .
+
+monarch:disease100675 RO:0002200 monarch:phenotype100675-pn .
+monarch:disease100675 a OMIM:100675 .
+monarch:phenotype100675-pn a HP:0001939 .
+
+monarch:disease100700 RO:0002200 monarch:phenotype100700-pn .
+monarch:disease100700 a OMIM:100700 .
+monarch:phenotype100700-pn a HP:0000248 .
+
+monarch:disease100700 RO:0002200 monarch:phenotype100700-pn .
+monarch:disease100700 a OMIM:100700 .
+monarch:phenotype100700-pn a HP:0000347 .
+
+monarch:disease100700 RO:0002200 monarch:phenotype100700-pn .
+monarch:disease100700 a OMIM:100700 .
+monarch:phenotype100700-pn a HP:0001166 .
+
+monarch:disease100700 RO:0002200 monarch:phenotype100700-pn .
+monarch:disease100700 a OMIM:100700 .
+monarch:phenotype100700-pn a HP:0001388 .
+
+monarch:disease100700 RO:0002200 monarch:phenotype100700-pn .
+monarch:disease100700 a OMIM:100700 .
+monarch:phenotype100700-pn a HP:0002682 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0000164 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0000238 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0000256 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0000272 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0000403 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0000405 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0000463 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0000772 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0000774 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0000944 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0000956 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0000975 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0001156 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0001252 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0001270 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0001355 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0001377 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0001382 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0001511 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0001513 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0001645 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0002007 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0002104 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0002119 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0002167 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0002512 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0002652 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0002677 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0002761 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0002781 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0002808 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0002938 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0002970 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0003015 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0003042 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0003093 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0003307 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0003312 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0003416 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0004060 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0005280 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0005733 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0008414 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0008905 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0008921 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0008947 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0009826 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0011800 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0100818 .
+
+monarch:disease100800 RO:0002200 monarch:phenotype100800-pn .
+monarch:disease100800 a OMIM:100800 .
+monarch:phenotype100800-pn a HP:0100864 .
+
+monarch:disease100820 RO:0002200 monarch:phenotype100820-pn .
+monarch:disease100820 a OMIM:100820 .
+monarch:phenotype100820-pn a HP:0000707 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0000360 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0000365 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0000407 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0000505 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0000518 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0000957 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0001251 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0001288 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0002076 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0002311 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0002315 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0002321 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0002516 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0002858 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0002888 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0007759 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0007876 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0007935 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0008046 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0008069 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0009589 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0009590 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0009592 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0009593 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0009594 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0009595 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0009733 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0009830 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0010628 .
+
+monarch:disease101000 RO:0002200 monarch:phenotype101000-pn .
+monarch:disease101000 a OMIM:101000 .
+monarch:phenotype101000-pn a HP:0100014 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000263 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000272 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000274 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000303 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000316 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000327 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000369 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000377 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000400 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000470 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000494 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000586 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000664 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000678 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000944 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0000974 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0001159 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0001177 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0001363 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0001382 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0002757 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0003103 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0004299 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0004322 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0004349 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0009816 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0010055 .
+
+monarch:disease101120 RO:0002200 monarch:phenotype101120-pn .
+monarch:disease101120 a OMIM:101120 .
+monarch:phenotype101120-pn a HP:0011304 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000028 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000126 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000148 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000175 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000189 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000193 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000235 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000238 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000239 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000244 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000270 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000272 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000303 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000316 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000324 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000337 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000348 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000365 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000389 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000405 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000407 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000444 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000452 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000453 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000486 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000494 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000505 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000520 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000586 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000648 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000684 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000689 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0000822 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0001061 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0001162 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0001177 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0001249 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0001274 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0001331 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0001355 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0001507 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0001629 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0001770 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0002007 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0002021 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0002032 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0002093 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0002119 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0002308 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0002564 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0002623 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0002676 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0003041 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0003422 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0004397 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0004440 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0004468 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0004487 .
+
+monarch:disease101200 RO:0002200 monarch:phenotype101200-pn .
+monarch:disease101200 a OMIM:101200 .
+monarch:phenotype101200-pn a HP:0004635 .
+
