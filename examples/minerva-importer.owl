@@ -1,5 +1,6 @@
 Prefix(:=<http://purl.obolibrary.org/obo/TEST_>)
 Ontology(<http://purl.obolibrary.org/obo/minerva-importer.owl>
+    Import(<http://purl.obolibrary.org/obo/ro.owl>)
     Import(<http://purl.obolibrary.org/obo/hp.owl>)
     Import(<http://purl.obolibrary.org/obo/do/subsets/test.owl>)
 )
