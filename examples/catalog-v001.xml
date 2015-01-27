@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
   <uri name="http://purl.obolibrary.org/obo/hp.owl" uri="phenotypes.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/hp/onset.owl" uri="onset.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/hp/inheritance.owl" uri="inheritance.owl"/>
   <uri name="http://purl.obolibrary.org/obo/do/subsets/test.owl" uri="diseases.owl"/>
 </catalog>
