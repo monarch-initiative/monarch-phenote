@@ -4,4 +4,5 @@
   <uri name="http://purl.obolibrary.org/obo/hp/onset.owl" uri="onset.owl"/>
   <uri name="http://purl.obolibrary.org/obo/hp/inheritance.owl" uri="inheritance.owl"/>
   <uri name="http://purl.obolibrary.org/obo/do/subsets/test.owl" uri="diseases.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl" uri="ro_import.owl"/>
 </catalog>
