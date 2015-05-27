@@ -1,0 +1,548 @@
+format-version: 1.2
+ontology: so/subsets/alterations
+subsetdef: DBVAR "database of genomic structural variation"
+subsetdef: SOFA "SO feature annotation"
+subsetdef: biosapiens "biosapiens protein feature ontology"
+synonymtypedef: AAMOD "amino acid modification"
+synonymtypedef: BS "biosapiens"
+synonymtypedef: RNAMOD "RNA modification" EXACT
+synonymtypedef: VAR "variant annotation term"
+synonymtypedef: aa1 "amino acid 1 letter code"
+synonymtypedef: aa3 "amino acid 3 letter code"
+synonymtypedef: dbsnp "dbsnp variant terms"
+synonymtypedef: dbvar "DBVAR"
+synonymtypedef: ebi_variants "ensembl variant terms"
+
+[Term]
+id: SO:0000001
+name: region
+namespace: sequence
+def: "A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids." [SO:ke]
+subset: SOFA  ! SO feature annotation
+synonym: "sequence" EXACT []
+is_a: SO:0000110  ! sequence_feature
+disjoint_from: SO:0000699  ! junction
+
+[Term]
+id: SO:0000110
+name: sequence_feature
+namespace: sequence
+def: "Any extent of continuous biological sequence." [LAMHDI:mb, SO:ke]
+subset: SOFA  ! SO feature annotation
+synonym: "located sequence feature" RELATED []
+synonym: "located_sequence_feature" EXACT []
+synonym: "sequence feature" EXACT []
+disjoint_from: SO:0000240  ! chromosome_variation
+disjoint_from: SO:0000400  ! sequence_attribute
+
+[Term]
+id: SO:0000159
+name: deletion
+namespace: sequence
+alt_id: SO:1000033
+def: "The point at which one or more contiguous nucleotides were excised." [SO:ke]
+subset: SOFA  ! SO feature annotation
+synonym: "deleted_sequence" EXACT []
+synonym: "nucleotide deletion" EXACT []
+synonym: "nucleotide_deletion" EXACT []
+xref: http://en.wikipedia.org/wiki/Nucleotide_deletion
+xref: loinc:LA6692-3
+is_a: SO:0001059  ! sequence_alteration
+is_a: SO:0001411  ! biological_region
+
+[Term]
+id: SO:0000199
+name: translocation
+namespace: sequence
+def: "A region of nucleotide sequence that has translocated to a new position." [SO:ke]
+subset: DBVAR  ! database of genomic structural variation
+synonym: "transchr" RELATED [http://www.ncbi.nlm.nih.gov/dbvar/]
+synonym: "translocated sequence" EXACT []
+is_a: SO:0001059  ! sequence_alteration
+
+[Term]
+id: SO:0000207
+name: simple_sequence_length_variation
+namespace: sequence
+synonym: "SSLP" RELATED []
+synonym: "simple sequence length polymorphism" RELATED []
+synonym: "simple sequence length variation" EXACT []
+is_a: SO:0000248  ! sequence_length_variation
+
+[Term]
+id: SO:0000248
+name: sequence_length_variation
+namespace: sequence
+synonym: "sequence length variation" EXACT []
+is_a: SO:1000002  ! substitution
+
+[Term]
+id: SO:0000667
+name: insertion
+namespace: sequence
+alt_id: SO:1000034
+def: "The sequence of one or more nucleotides added between two adjacent nucleotides in the sequence." [SO:ke]
+subset: DBVAR  ! database of genomic structural variation
+subset: SOFA  ! SO feature annotation
+synonym: "insertion" EXACT dbvar [http://www.ncbi.nlm.nih.gov/dbvar/]
+synonym: "nucleotide insertion" EXACT []
+synonym: "nucleotide_insertion" EXACT []
+xref: loinc:LA6687-3
+is_a: SO:0001059  ! sequence_alteration
+is_a: SO:0001411  ! biological_region
+
+[Term]
+id: SO:0000694
+name: SNP
+namespace: sequence
+def: "SNPs are single base pair positions in genomic DNA at which different sequence alternatives exist in normal individuals in some population(s), wherein the least frequent variant has an abundance of 1% or greater." [SO:cb]
+subset: SOFA  ! SO feature annotation
+synonym: "single nucleotide polymorphism" EXACT []
+is_a: SO:0001483  ! SNV
+
+[Term]
+id: SO:0001013
+name: MNP
+namespace: sequence
+def: "A multiple nucleotide polymorphism with alleles of common length > 1, for example AAA/TTT." [http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs2067431]
+synonym: "multiple nucleotide polymorphism" RELATED []
+is_a: SO:0002007  ! MNV
+
+[Term]
+id: SO:0001019
+name: copy_number_variation
+namespace: sequence
+def: "A variation that increases or decreases the copy number of a given region." [SO:ke]
+subset: SOFA  ! SO feature annotation
+synonym: "CNP" EXACT []
+synonym: "CNV" EXACT []
+synonym: "copy number polymorphism" EXACT []
+synonym: "copy number variation" EXACT []
+xref: http://en.wikipedia.org/wiki/Copy_number_variation
+is_a: SO:0001059  ! sequence_alteration
+
+[Term]
+id: SO:0001059
+name: sequence_alteration
+namespace: sequence
+alt_id: SO:1000004
+alt_id: SO:1000007
+def: "A sequence_alteration is a sequence_feature whose extent is the deviation from another sequence." [SO:ke]
+comment: Merged with partially characterized change in nucleotide sequence.
+subset: SOFA  ! SO feature annotation
+synonym: "partially characterised change in DNA sequence" NARROW []
+synonym: "partially_characterised_change_in_DNA_sequence" NARROW []
+synonym: "sequence alteration" EXACT []
+synonym: "sequence variation" RELATED []
+synonym: "uncharacterised_change_in_nucleotide_sequence" NARROW []
+is_a: SO:0000110  ! sequence_feature
+
+[Term]
+id: SO:0001218
+name: transgenic_insertion
+namespace: sequence
+def: "An insertion that derives from another organism, via the use of recombinant DNA technology." [SO:bm]
+synonym: "transgenic insertion" EXACT []
+is_a: SO:0000667  ! insertion
+relationship: has_quality SO:0000781 ! transgenic
+intersection_of: SO:0000667  ! insertion
+intersection_of: has_quality SO:0000781 ! transgenic
+
+[Term]
+id: SO:0001411
+name: biological_region
+namespace: sequence
+def: "A region defined by its disposition to be involved in a biological process." [SO:cb]
+subset: SOFA  ! SO feature annotation
+synonym: "biological region" EXACT []
+is_a: SO:0000001  ! region
+
+[Term]
+id: SO:0001483
+name: SNV
+namespace: sequence
+def: "SNVs are single nucleotide positions in genomic DNA at which different sequence alternatives exist." [SO:bm]
+subset: SOFA  ! SO feature annotation
+synonym: "single nucleotide variant" EXACT []
+is_a: SO:1000002  ! substitution
+
+[Term]
+id: SO:0001742
+name: copy_number_gain
+namespace: sequence
+def: "A sequence alteration whereby the copy number of a given regions is greater than the reference sequence." [SO:ke]
+subset: DBVAR  ! database of genomic structural variation
+synonym: "copy number gain" EXACT []
+synonym: "gain" RELATED dbvar [http://www.ncbi.nlm.nih.gov/dbvar/]
+is_a: SO:0001019  ! copy_number_variation
+
+[Term]
+id: SO:0001743
+name: copy_number_loss
+namespace: sequence
+def: "A sequence alteration whereby the copy number of a given region is less than the reference sequence." [SO:ke]
+subset: DBVAR  ! database of genomic structural variation
+synonym: "copy number loss" EXACT []
+synonym: "loss" RELATED dbvar [http://www.ncbi.nlm.nih.gov/dbvar/]
+is_a: SO:0001019  ! copy_number_variation
+
+[Term]
+id: SO:0001744
+name: UPD
+namespace: sequence
+def: "Uniparental disomy is a sequence_alteration where a diploid individual receives two copies for all or part of a chromosome from one parent and no copies of the same chromosome or region from the other parent." [SO:BM]
+subset: DBVAR  ! database of genomic structural variation
+synonym: "UPD" EXACT dbvar [http://www.ncbi.nlm.nih.gov/dbvar/]
+synonym: "uniparental disomy" EXACT []
+xref: http:http://en.wikipedia.org/wiki/Uniparental_disomy
+is_a: SO:0001059  ! sequence_alteration
+
+[Term]
+id: SO:0001745
+name: maternal_uniparental_disomy
+namespace: sequence
+def: "Uniparental disomy is a sequence_alteration where a diploid individual receives two copies for all or part of a chromosome from the mother and no copies of the same chromosome or region from the father." [SO:bm]
+synonym: "maternal uniparental disomy" EXACT []
+is_a: SO:0001744  ! UPD
+
+[Term]
+id: SO:0001746
+name: paternal_uniparental_disomy
+namespace: sequence
+def: "Uniparental disomy is a sequence_alteration where a diploid individual receives two copies for all or part of a chromosome from the father and no copies of the same chromosome or region from the mother." [SO:bm]
+synonym: "paternal uniparental disomy" EXACT []
+is_a: SO:0001744  ! UPD
+
+[Term]
+id: SO:0001784
+name: complex_structural_alteration
+namespace: sequence
+def: "A structural sequence alteration or rearrangement encompassing one or more genome fragments." [NCBI:th, SO:ke]
+subset: DBVAR  ! database of genomic structural variation
+synonym: "complex" RELATED dbvar [http://www.ncbi.nlm.nih.gov/dbvar/]
+is_a: SO:0001785  ! structural_alteration
+
+[Term]
+id: SO:0001785
+name: structural_alteration
+namespace: sequence
+subset: DBVAR  ! database of genomic structural variation
+synonym: "structural alteration" EXACT []
+is_a: SO:0001059  ! sequence_alteration
+
+[Term]
+id: SO:0001837
+name: mobile_element_insertion
+namespace: sequence
+def: "A kind of insertion where the inserted sequence is a mobile element." [EBI:dvga]
+comment: Requested by the EBI.
+synonym: "mobile element insertion" EXACT []
+is_a: SO:0000667  ! insertion
+relationship: contains SO:0001037 ! mobile_genetic_element
+intersection_of: SO:0000667  ! insertion
+intersection_of: contains SO:0001037 ! mobile_genetic_element
+
+[Term]
+id: SO:0001838
+name: novel_sequence_insertion
+namespace: sequence
+def: "An insertion the sequence of which cannot be mapped to the reference genome." [NCBI:th]
+comment: Requested by the NCBI.
+synonym: "novel sequence insertion" EXACT []
+is_a: SO:0000667  ! insertion
+
+[Term]
+id: SO:0001872
+name: rearrangement_breakpoint
+namespace: sequence
+def: "A region of a chromosome, where the chromosome has undergone a large structural rearrangement that altered the genome organization. There is no longer synteny to the reference genome." [NCBI:th, PMID:18564416]
+comment: NCBI definition: An orphan rearrangement between chromosomal location observed in isolation.
+synonym: "rearrangement breakpoint" EXACT []
+is_a: SO:0001411  ! biological_region
+is_a: SO:0001785  ! structural_alteration
+
+[Term]
+id: SO:0001873
+name: interchromosomal_breakpoint
+namespace: sequence
+def: "A rearrangement breakpoint between two different chromosomes." [NCBI:th]
+synonym: "interchromosomal breakpoint" EXACT []
+is_a: SO:0001872  ! rearrangement_breakpoint
+
+[Term]
+id: SO:0001874
+name: intrachromosomal_breakpoint
+namespace: sequence
+def: "A rearrangement breakpoint within the same chromosome." [NCBI:th]
+synonym: "intrachromosomal breakpoint" EXACT []
+is_a: SO:0001872  ! rearrangement_breakpoint
+
+[Term]
+id: SO:0001928
+name: distal_duplication
+namespace: sequence
+def: "A duplication of the distal region of a chromosome." [SO:bm]
+comment: This term is used by Complete Genomics in the structural variant analysis files.
+synonym: "distal duplication" EXACT []
+is_a: SO:1000035  ! duplication
+
+[Term]
+id: SO:0002007
+name: MNV
+namespace: sequence
+def: "An MNV is a multiple nucleotide variant (substitution) in which the inserted sequence is the same length as the replaced sequence." [NCBI:th]
+synonym: "multiple nucleotide substitution" EXACT []
+synonym: "multiple nucleotide variant" EXACT []
+is_a: SO:1000002  ! substitution
+
+[Term]
+id: SO:1000002
+name: substitution
+namespace: sequence
+def: "A sequence alteration where the length of the change in the variant is the same as that of the reference." [SO:ke]
+subset: SOFA  ! SO feature annotation
+xref: loinc:LA6690-7
+is_a: SO:0001059  ! sequence_alteration
+is_a: SO:0001411  ! biological_region
+
+[Term]
+id: SO:1000005
+name: complex_substitution
+namespace: sequence
+def: "When no simple or well defined DNA mutation event describes the observed DNA change, the keyword \"complex\" should be used. Usually there are multiple equally plausible explanations for the change." [EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html]
+subset: SOFA  ! SO feature annotation
+synonym: "complex substitution" EXACT []
+is_a: SO:1000002  ! substitution
+
+[Term]
+id: SO:1000008
+name: point_mutation
+namespace: sequence
+def: "A single nucleotide change which has occurred at the same position of a corresponding nucleotide in a reference sequence." [SO:immuno_workshop]
+subset: SOFA  ! SO feature annotation
+synonym: "point mutation" EXACT []
+xref: http://en.wikipedia.org/wiki/Point_mutation
+is_a: SO:0001483  ! SNV
+
+[Term]
+id: SO:1000009
+name: transition
+namespace: sequence
+def: "Change of a pyrimidine nucleotide, C or T, into an other pyrimidine nucleotide, or change of a purine nucleotide, A or G, into an other purine nucleotide." [EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html]
+is_a: SO:0001483  ! SNV
+
+[Term]
+id: SO:1000010
+name: pyrimidine_transition
+namespace: sequence
+def: "A substitution of a pyrimidine, C or T, for another pyrimidine." [SO:ke]
+synonym: "pyrimidine transition" EXACT []
+is_a: SO:1000009  ! transition
+
+[Term]
+id: SO:1000011
+name: C_to_T_transition
+namespace: sequence
+def: "A transition of a cytidine to a thymine." [SO:ke]
+synonym: "C to T transition" EXACT []
+is_a: SO:1000010  ! pyrimidine_transition
+
+[Term]
+id: SO:1000012
+name: C_to_T_transition_at_pCpG_site
+namespace: sequence
+def: "The transition of cytidine to thymine occurring at a pCpG site as a consequence of the spontaneous deamination of 5'-methylcytidine." [EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html]
+synonym: "C to T transition at pCpG site" EXACT []
+is_a: SO:1000011  ! C_to_T_transition
+
+[Term]
+id: SO:1000013
+name: T_to_C_transition
+namespace: sequence
+synonym: "T to C transition" EXACT []
+is_a: SO:1000010  ! pyrimidine_transition
+
+[Term]
+id: SO:1000014
+name: purine_transition
+namespace: sequence
+def: "A substitution of a purine, A or G, for another purine." [SO:ke]
+synonym: "purine transition" EXACT []
+is_a: SO:1000009  ! transition
+
+[Term]
+id: SO:1000015
+name: A_to_G_transition
+namespace: sequence
+def: "A transition of an adenine to a guanine." [SO:ke]
+synonym: "A to G transition" EXACT []
+is_a: SO:1000014  ! purine_transition
+
+[Term]
+id: SO:1000016
+name: G_to_A_transition
+namespace: sequence
+def: "A transition of a guanine to an adenine." [SO:ke]
+synonym: "G to A transition" EXACT []
+is_a: SO:1000014  ! purine_transition
+
+[Term]
+id: SO:1000017
+name: transversion
+namespace: sequence
+def: "Change of a pyrimidine nucleotide, C or T, into a purine nucleotide, A or G, or vice versa." [EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html]
+xref: http://en.wikipedia.org/wiki/Transversion
+is_a: SO:0001483  ! SNV
+
+[Term]
+id: SO:1000018
+name: pyrimidine_to_purine_transversion
+namespace: sequence
+def: "Change of a pyrimidine nucleotide, C or T, into a purine nucleotide, A or G." [SO:ke]
+synonym: "pyrimidine to purine transversion" EXACT []
+is_a: SO:1000017  ! transversion
+
+[Term]
+id: SO:1000019
+name: C_to_A_transversion
+namespace: sequence
+def: "A transversion from cytidine to adenine." [SO:ke]
+synonym: "C to A transversion" EXACT []
+is_a: SO:1000018  ! pyrimidine_to_purine_transversion
+
+[Term]
+id: SO:1000020
+name: C_to_G_transversion
+namespace: sequence
+synonym: "C to G transversion" EXACT []
+is_a: SO:1000018  ! pyrimidine_to_purine_transversion
+
+[Term]
+id: SO:1000021
+name: T_to_A_transversion
+namespace: sequence
+def: "A transversion from T to A." [SO:ke]
+synonym: "T to A transversion" EXACT []
+is_a: SO:1000018  ! pyrimidine_to_purine_transversion
+
+[Term]
+id: SO:1000022
+name: T_to_G_transversion
+namespace: sequence
+def: "A transversion from T to G." [SO:ke]
+synonym: "T to G transversion" EXACT []
+is_a: SO:1000018  ! pyrimidine_to_purine_transversion
+
+[Term]
+id: SO:1000023
+name: purine_to_pyrimidine_transversion
+namespace: sequence
+def: "Change of a purine nucleotide, A or G , into a pyrimidine nucleotide C or T." [SO:ke]
+synonym: "purine to pyrimidine transversion" EXACT []
+is_a: SO:1000017  ! transversion
+
+[Term]
+id: SO:1000024
+name: A_to_C_transversion
+namespace: sequence
+def: "A transversion from adenine to cytidine." [SO:ke]
+synonym: "A to C transversion" EXACT []
+is_a: SO:1000023  ! purine_to_pyrimidine_transversion
+
+[Term]
+id: SO:1000025
+name: A_to_T_transversion
+namespace: sequence
+def: "A transversion from adenine to thymine." [SO:ke]
+synonym: "A to T transversion" EXACT []
+is_a: SO:1000023  ! purine_to_pyrimidine_transversion
+
+[Term]
+id: SO:1000026
+name: G_to_C_transversion
+namespace: sequence
+def: "A transversion from guanine to cytidine." [SO:ke]
+synonym: "G to C transversion" EXACT []
+is_a: SO:1000023  ! purine_to_pyrimidine_transversion
+
+[Term]
+id: SO:1000027
+name: G_to_T_transversion
+namespace: sequence
+def: "A transversion from guanine to thymine." [SO:ke]
+synonym: "G to T transversion" EXACT []
+is_a: SO:1000023  ! purine_to_pyrimidine_transversion
+
+[Term]
+id: SO:1000032
+name: indel
+namespace: sequence
+def: "A sequence alteration which included an insertion and a deletion, affecting 2 or more bases." [EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html, http:http://www.hgvs.org/mutnomen/recs-DNA.html#indel]
+comment: Indels can have a different number of bases than the corresponding reference sequence.
+xref: http://en.wikipedia.org/wiki/Indel
+xref: loinc:LA9659-9
+is_a: SO:0001059  ! sequence_alteration
+
+[Term]
+id: SO:1000035
+name: duplication
+namespace: sequence
+def: "An insertion which derives from, or is identical in sequence to, nucleotides present at a known location in the genome." [EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html, NCBI:th]
+synonym: "nucleotide duplication" EXACT []
+synonym: "nucleotide_duplication" RELATED []
+xref: loinc:LA6686-5
+is_a: SO:0000667  ! insertion
+
+[Term]
+id: SO:1000036
+name: inversion
+namespace: sequence
+def: "A continuous nucleotide sequence is inverted in the same position." [EBI:www.ebi.ac.uk/mutations/recommendations/mutevent.html]
+subset: DBVAR  ! database of genomic structural variation
+subset: SOFA  ! SO feature annotation
+synonym: "inversion" EXACT dbvar [http://www.ncbi.nlm.nih.gov/dbvar/]
+xref: loinc:LA6689-9
+is_a: SO:0001059  ! sequence_alteration
+is_a: SO:0001411  ! biological_region
+
+[Term]
+id: SO:1000039
+name: direct_tandem_duplication
+namespace: sequence
+def: "A tandem duplication where the individual regions are in the same orientation." [SO:ke]
+synonym: "direct tandem duplication" EXACT []
+is_a: SO:1000173  ! tandem_duplication
+
+[Term]
+id: SO:1000040
+name: inverted_tandem_duplication
+namespace: sequence
+def: "A tandem duplication where the individual regions are not in the same orientation." [SO:ke]
+synonym: "inverted tandem duplication" EXACT []
+synonym: "mirror duplication" RELATED []
+is_a: SO:1000173  ! tandem_duplication
+
+[Term]
+id: SO:1000173
+name: tandem_duplication
+namespace: sequence
+def: "A duplication consisting of 2 identical adjacent regions." [SO:ke]
+subset: DBVAR  ! database of genomic structural variation
+synonym: "erverted" RELATED dbvar [http://www.ncbi.nlm.nih.gov/dbvar/]
+synonym: "tandem duplication" EXACT []
+is_a: SO:1000035  ! duplication
+
+[Typedef]
+id: contains
+name: contains
+namespace: sequence
+def: "The inverse of contained_by." [PMID:20226267]
+is_transitive: true
+comment: Example: pre_miRNA contains miRNA_loop.
+
+[Typedef]
+id: has_quality
+name: has_quality
+namespace: sequence
+comment: The relationship between a feature and an attribute.
+

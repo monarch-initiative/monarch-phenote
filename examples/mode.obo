@@ -1,0 +1,244 @@
+format-version: 1.2
+ontology: hp
+subsetdef: hposlim_core "Core clinical terminology"
+subsetdef: secondary_consequence "Consequence of a disorder in another organ system."
+
+[Term]
+id: HP:0000001
+name: All
+namespace: human_phenotype
+comment: Root of all terms in the Human Phenotype Ontology.
+
+[Term]
+id: HP:0000005
+name: Mode of inheritance
+namespace: human_phenotype
+alt_id: HP:0001453
+alt_id: HP:0001461
+def: "The pattern in which a particular genetic trait or disorder is passed from one generation to the next." [HPO:probinson]
+synonym: "Inheritance" EXACT []
+is_a: HP:0000001  ! All
+
+[Term]
+id: HP:0000006
+name: Autosomal dominant inheritance
+namespace: human_phenotype
+alt_id: HP:0001415
+alt_id: HP:0001447
+alt_id: HP:0001448
+alt_id: HP:0001451
+alt_id: HP:0001455
+alt_id: HP:0001456
+alt_id: HP:0001463
+def: "A mode of inheritance that is observed for traits related to a gene encoded on one of the autosomes (i.e., the human chromosomes 1-22) in which a trait manifests in heterozygotes. In the context of medical genetics, an autosomal dominant disorder is caused when a single copy of the mutant allele is present. Males and females are affected equally, and can both transmit the disorder with a risk of 50% for each child of inheriting the mutant allele." [HPO:curators]
+synonym: "AUTOSOMAL DOMINANT FORM" RELATED [HPO:skoehler]
+synonym: "AUTOSOMAL DOMINANT TYPE" RELATED [HPO:skoehler]
+synonym: "Autosomal dominant" EXACT []
+xref: UMLS:C0443147
+is_a: HP:0000005  ! Mode of inheritance
+
+[Term]
+id: HP:0000007
+name: Autosomal recessive inheritance
+namespace: human_phenotype
+alt_id: HP:0001416
+alt_id: HP:0001526
+def: "A mode of inheritance that is observed for traits related to a gene encoded on one of the autosomes (i.e., the human chromosomes 1-22) in which a trait manifests in homozygotes. In the context of medical genetics, autosomal recessive disorders manifest in homozygotes (with two copies of the mutant allele) or compound heterozygotes (whereby each copy of a gene has a distinct mutant allele)." [HPO:curators]
+synonym: "AUTOSOMAL RECESSIVE FORM" RELATED [HPO:skoehler]
+synonym: "Autosomal recessive" EXACT []
+synonym: "Autosomal recessive predisposition" RELATED []
+is_a: HP:0000005  ! Mode of inheritance
+
+[Term]
+id: HP:0001417
+name: X-linked inheritance
+namespace: human_phenotype
+alt_id: HP:0001418
+def: "A mode of inheritance that is observed for traits related to a gene encoded on the X chromosome." [HPO:curators]
+synonym: "X-LINKED FORM" RELATED [HPO:skoehler]
+synonym: "X-linked" EXACT []
+xref: UMLS:C0241764
+is_a: HP:0010985  ! Gonosomal inheritance
+
+[Term]
+id: HP:0001419
+name: X-linked recessive inheritance
+namespace: human_phenotype
+def: "A mode of inheritance that is observed for recessive traits related to a gene encoded on the X chromosome. In the context of medical genetics, X-linked recessive disorders manifest in males (who have one copy of the X chromosome and are thus hemizygotes), but generally not in female heterozygotes who have one mutant and one normal allele." [HPO:curators]
+synonym: "X-LINKED RECESSIVE" EXACT [HPO:skoehler]
+xref: UMLS:C0241764
+is_a: HP:0001417  ! X-linked inheritance
+
+[Term]
+id: HP:0001423
+name: X-linked dominant inheritance
+namespace: human_phenotype
+def: "A mode of inheritance that is observed for dominant traits related to a gene encoded on the X chromosome. In the context of medical genetics, X-linked dominant disorders tend to manifest very severely in affected males. The severity of manifestation in females may depend on the degree of skewed X inactivation." [HPO:curators]
+synonym: "X-LINKED DOMINANT" EXACT [HPO:skoehler]
+is_a: HP:0001417  ! X-linked inheritance
+
+[Term]
+id: HP:0001425
+name: Heterogeneous
+namespace: human_phenotype
+synonym: "Genetic heterogeneity" EXACT []
+synonym: "Heterogeneity" EXACT []
+synonym: "Heterogeneity." EXACT []
+synonym: "Heterogeneous." EXACT []
+is_a: HP:0000005  ! Mode of inheritance
+
+[Term]
+id: HP:0001426
+name: Multifactorial inheritance
+namespace: human_phenotype
+alt_id: HP:0001429
+def: "A mode of inheritance that depends on a mixture of major and minor genetic determinants possibly together with environmental factors. Diseases inherited in this manner are termed complex diseases." [HPO:probinson]
+xref: MeSH:D020412
+is_a: HP:0000005  ! Mode of inheritance
+
+[Term]
+id: HP:0001427
+name: Mitochondrial inheritance
+namespace: human_phenotype
+alt_id: HP:0001431
+alt_id: HP:0001458
+alt_id: HP:0001506
+def: "A mode of inheritance that is observed for traits related to a gene encoded on the mitochondrial genome. Because the mitochondrial genome is essentially always maternally inherited, a mitochondrial condition can only be transmitted by females, although the condition can affect both sexes. The proportion of mutant mitochondria can vary (heteroplasmy)." [HPO:probinson]
+synonym: "Mitochondrial" EXACT []
+is_a: HP:0000005  ! Mode of inheritance
+
+[Term]
+id: HP:0001428
+name: Somatic mutation
+namespace: human_phenotype
+xref: UMLS:C0544886
+is_a: HP:0000005  ! Mode of inheritance
+
+[Term]
+id: HP:0001442
+name: Somatic mosaicism
+namespace: human_phenotype
+def: "The presence of genetically distinct populations of somatic cells in a given organism caused by DNA mutations, epigenetic alterations of DNA, chromosomal abnormalities or the spontaneous reversion of inherited mutations." [HPO:probinson, pmid:12360233]
+xref: UMLS:C1866227
+is_a: HP:0001428  ! Somatic mutation
+
+[Term]
+id: HP:0001444
+name: Autosomal dominant somatic cell mutation
+namespace: human_phenotype
+is_a: HP:0000006  ! Autosomal dominant inheritance
+
+[Term]
+id: HP:0001450
+name: Y-linked inheritance
+namespace: human_phenotype
+def: "A mode of inheritance that is observed for traits related to a gene encoded on the Y chromosome." [HPO:curators]
+xref: UMLS:C0814045
+is_a: HP:0010985  ! Gonosomal inheritance
+
+[Term]
+id: HP:0001452
+name: Autosomal dominant contiguous gene syndrome
+namespace: human_phenotype
+is_a: HP:0000006  ! Autosomal dominant inheritance
+is_a: HP:0001466  ! Contiguous gene syndrome
+
+[Term]
+id: HP:0001466
+name: Contiguous gene syndrome
+namespace: human_phenotype
+xref: UMLS:C1855496
+is_a: HP:0000005  ! Mode of inheritance
+
+[Term]
+id: HP:0001470
+name: Sex-limited autosomal dominant
+namespace: human_phenotype
+is_a: HP:0000006  ! Autosomal dominant inheritance
+
+[Term]
+id: HP:0001472
+name: Familial predisposition
+namespace: human_phenotype
+is_a: HP:0000005  ! Mode of inheritance
+
+[Term]
+id: HP:0001475
+name: Male-limited autosomal dominant
+namespace: human_phenotype
+is_a: HP:0001470  ! Sex-limited autosomal dominant
+
+[Term]
+id: HP:0003743
+name: Genetic anticipation
+namespace: human_phenotype
+def: "A `mode of inheritance` (HP:0000005) in which the severity of a disorder increases or the age of onset decreases as the disorder is passed from one generation to the next." [HPO:probinson]
+comment: This mode of inheritance is characteristic of trinucleotide and some other repeat disorders.
+xref: MeSH:D020132
+is_a: HP:0000005  ! Mode of inheritance
+
+[Term]
+id: HP:0003744
+name: Genetic anticipation with paternal anticipation bias
+namespace: human_phenotype
+def: "A type of `genetic anticipation` (HP:0003743) observed predominantly upon transmission from affected males." [HPO:probinson]
+synonym: "Paternal anticipation bias" RELATED []
+xref: UMLS:C1834002
+is_a: HP:0003743  ! Genetic anticipation
+
+[Term]
+id: HP:0003745
+name: Sporadic
+namespace: human_phenotype
+alt_id: HP:0001420
+alt_id: HP:0003747
+alt_id: HP:0003769
+def: "Cases of the disease in question occur without a previous family history, i.e., as isolated cases without being transmitted from a parent and without other siblings being affected." [HPO:probinson]
+synonym: "Isolated cases" EXACT []
+xref: UMLS:C0205422
+is_a: HP:0000005  ! Mode of inheritance
+
+[Term]
+id: HP:0010982
+name: Polygenic inheritance
+namespace: human_phenotype
+def: "A type of multifactorial inheritance governed by the simultaneous action of many (more than three) gene loci." [HPO:probinson, ISBN:978-0192628961]
+is_a: HP:0001426  ! Multifactorial inheritance
+
+[Term]
+id: HP:0010983
+name: Oligogenic inheritance
+namespace: human_phenotype
+def: "A type of multifactorial inheritance governed by the simultaneous action of a few gene loci. It is recommended this term be used for traits governed by three loci, although it is noted that usage of this term in the literature is not uniform." [HPO:probinson, ISBN:978-0192628961]
+is_a: HP:0001426  ! Multifactorial inheritance
+
+[Term]
+id: HP:0010984
+name: Digenic inheritance
+namespace: human_phenotype
+def: "A type of multifactorial inheritance governed by the simultaneous action of two gene loci." [HPO:probinson, ISBN:978-0192628961]
+is_a: HP:0001426  ! Multifactorial inheritance
+
+[Term]
+id: HP:0010985
+name: Gonosomal inheritance
+namespace: human_phenotype
+def: "A mode of inheritance that is observed for traits related to a gene encoded on the sex chromosomes." [HPO:probinson]
+is_a: HP:0000005  ! Mode of inheritance
+
+[Term]
+id: HP:0012274
+name: Autosomal dominant inheritance with paternal imprinting
+namespace: human_phenotype
+def: "A type of autosomal dominant inheritance involving a gene that is imprinted with paternal silencing." [HPO:probinson, pmid:18678320]
+comment: Since the paternally inherited copy of such genes is silenced normally, only a maternally transmitted mutation leads to disease in this kind of inheritance.
+is_a: HP:0000006  ! Autosomal dominant inheritance
+
+[Term]
+id: HP:0012275
+name: Autosomal dominant inheritance with maternal imprinting
+namespace: human_phenotype
+def: "A type of autosomal dominant inheritance involving a gene that is imprinted with maternal silencing." [HPO:probinson]
+comment: Since the maternally inherited copy of such genes is silenced normally, only a paternally transmitted mutation leads to disease in this kind of inheritance.
+is_a: HP:0000006  ! Autosomal dominant inheritance
+
