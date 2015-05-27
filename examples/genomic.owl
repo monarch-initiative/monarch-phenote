@@ -1,0 +1,31 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: NCBIGene: <http://purl.obolibrary.org/obo/NCBIGene_>
+Prefix: SO: <http://purl.obolibrary.org/obo/SO_>
+Prefix: HP: <http://purl.obolibrary.org/obo/HP_>
+Prefix: OMIM: <http://purl.obolibrary.org/obo/OMIM_>
+
+
+Ontology: <http://purl.obolibrary.org/obo/genomic.owl>
+
+##
+
+Class: NCBIGene:335
+ Annotations: rdfs:label "APOA1"
+
+Class: SO:0000167
+ Annotations: rdfs:label "promoter"
+
+Class: SO:0000694
+ Annotations: rdfs:label "SNP"
+
+Class: OMIM:604091
+ Annotations: rdfs:label "Hypoalphalipoproteinemia"
+
+
+Class: HP:0000790
+ Annotations: rdfs:label "Hematuria"
+
