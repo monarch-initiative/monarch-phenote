@@ -1,0 +1,218 @@
+@prefix : <http://www.monarchinitiative.org/> .
+@prefix Annotation: <http://www.w3.org/ns/oa#Annotation> .
+@prefix BFO: <http://purl.obolibrary.org/obo/BFO_> .
+@prefix BIOGRID: <http://thebiogrid.org/> .
+@prefix CCDS: <http://www.ncbi.nlm.nih.gov/CCDS/CcdsBrowse.cgi?REQUEST=CCDS&DATA=> .
+@prefix CGD: <http://ohsu.edu/cgd/> .
+@prefix CHEBI: <http://purl.obolibrary.org/obo/CHEBI_> .
+@prefix CHR: <http://purl.obolibrary.org/obo/CHR_> .
+@prefix CID: <http://pubchem.ncbi.nlm.nih.gov/compound/> .
+@prefix CL: <http://purl.obolibrary.org/obo/CL_> .
+@prefix CLO: <http://purl.obolibrary.org/obo/CLO_> .
+@prefix COSMIC: <http://cancer.sanger.ac.uk/cosmic/mutation/overview?id=> .
+@prefix ClinVar: <http://www.ncbi.nlm.nih.gov/clinvar/> .
+@prefix ClinVarVariant: <http://www.ncbi.nlm.nih.gov/clinvar/variation/> .
+@prefix Coriell: <https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=> .
+@prefix CoriellCollection: <https://catalog.coriell.org/1/> .
+@prefix CoriellFamily: <https://catalog.coriell.org/0/Sections/BrowseCatalog/FamilyTypeSubDetail.aspx?fam=> .
+@prefix CoriellIndividual: <https://catalog.coriell.org/Search?q=> .
+@prefix DATA: <http://purl.obolibrary.org/DATA_> .
+@prefix DECIPHER: <http://purl.obolibrary.org/obo/DECIPHER_> .
+@prefix DOI: <http://dx.doi.org/> .
+@prefix DOID: <http://purl.obolibrary.org/obo/DOID_> .
+@prefix DrugBank: <http://www.drugbank.ca/drugs/> .
+@prefix EC: <http://identifiers.org/EC:> .
+@prefix ECO: <http://purl.obolibrary.org/obo/ECO_> .
+@prefix EFO: <http://www.ebi.ac.uk/efo/EFO_> .
+@prefix ENSEMBL: <http://identifiers.org/ENSEMBL:> .
+@prefix EOM: <http://purl.obolibrary.org/obo/EOM_> .
+@prefix ERO: <http://purl.obolibrary.org/obo/ERO_> .
+@prefix FlyBase: <http://identifiers.org/FB:> .
+@prefix GENO: <http://purl.obolibrary.org/obo/GENO_> .
+@prefix GO: <http://purl.obolibrary.org/obo/GO_> .
+@prefix GenBank: <http://www.ncbi.nlm.nih.gov/nuccore/> .
+@prefix GeneReviews: <http://www.ncbi.nlm.nih.gov/books/> .
+@prefix HGMD: <http://identifiers.org/hgmd/'> .
+@prefix HGNC: <http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:> .
+@prefix HP: <http://purl.obolibrary.org/obo/HP_> .
+@prefix HPO: <http://human-phenotype-ontology.org/> .
+@prefix HPRD: <http://www.hprd.org/protein/> .
+@prefix IAO: <http://purl.obolibrary.org/obo/IAO_> .
+@prefix IMPC: <http://www.mousephenotype.org/data/genes/> .
+@prefix ISBN: <http://www.monarchinitiative.org/ISBN_> .
+@prefix ISBN-10: <http://www.monarchinitiative.org/ISBN10_> .
+@prefix ISBN-13: <http://www.monarchinitiative.org/ISBN13_> .
+@prefix ISBN-15: <http://www.monarchinitiative.org/ISBN15_> .
+@prefix J: <http://www.informatics.jax.org/reference/J:> .
+@prefix JAX: <http://jaxmice.jax.org/strain/> .
+@prefix KEGG: <http://www.kegg.jp/dbget-bin/www_bget?> .
+@prefix MA: <http://purl.obolibrary.org/obo/MA_> .
+@prefix MESH: <http://purl.obolibrary.org/obo/MESH_> .
+@prefix MGI: <http://www.informatics.jax.org/accession/MGI:> .
+@prefix MONARCH: <http://www.monarchinitiative.org/MONARCH_> .
+@prefix MP: <http://purl.obolibrary.org/obo/MP_> .
+@prefix MedGen: <http://www.ncbi.nlm.nih.gov/medgen/> .
+@prefix NCBIGene: <http://www.ncbi.nlm.nih.gov/gene/> .
+@prefix NCBIGenome: <http://www.ncbi.nlm.nih.gov/genome/?term=> .
+@prefix NCBIProtein: <http://www.ncbi.nlm.nih.gov/protein/> .
+@prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_> .
+@prefix OBO: <http://purl.obolibrary.org/obo/> .
+@prefix OIO: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix OMIM: <http://purl.obolibrary.org/obo/OMIM_> .
+@prefix Orphanet: <http://www.orpha.net/ORDO/Orphanet_> .
+@prefix PANTHER: <http://www.pantherdb.org/panther/family.do?clsAccession=> .
+@prefix PATO: <http://purl.obolibrary.org/obo/PATO_> .
+@prefix PDB: <http://identifiers.org/PDB:> .
+@prefix PMCID: <http://www.ncbi.nlm.nih.gov/pmc/> .
+@prefix PMID: <http://www.ncbi.nlm.nih.gov/pubmed/> .
+@prefix PR: <http://purl.obolibrary.org/obo/pr_> .
+@prefix PW: <http://purl.obolibrary.org/obo/PW_> .
+@prefix PomBase: <http://identifiers.org/PomBase:> .
+@prefix REACT: <http://www.reactome.org/content/detail/REACT_> .
+@prefix RGD: <http://rgd.mcw.edu/rgdweb/report/gene/main.html?id=> .
+@prefix RO: <http://purl.obolibrary.org/obo/RO_> .
+@prefix RefSeq: <http://www.ncbi.nlm.nih.gov/refseq/?term=> .
+@prefix SGD: <http://identifiers.org/SGD:> .
+@prefix SIO: <http://semanticscience.org/resource/SIO_> .
+@prefix SNOMED: <http://purl.obolibrary.org/obo/SNOMED_> .
+@prefix SO: <http://purl.obolibrary.org/obo/SO_> .
+@prefix SwissProt: <http://identifiers.org/SwissProt:> .
+@prefix TAIR: <http://identifiers.org/TAIR:> .
+@prefix TrEMBL: <http://www.uniprot.org/uniprot/> .
+@prefix UBERON: <http://purl.obolibrary.org/obo/UBERON_> .
+@prefix UCSC: <ftp://hgdownload.cse.ucsc.edu/goldenPath/> .
+@prefix UMLS: <http://purl.obolibrary.org/obo/UMLS_> .
+@prefix UniProtKB: <http://identifiers.org/uniprot/> .
+@prefix WormBase: <http://identifiers.org/WormBase:> .
+@prefix ZFA: <http://purl.obolibrary.org/obo/ZFA_> .
+@prefix ZFIN: <http://zfin.org/> .
+@prefix ZFS: <http://purl.obolibrary.org/obo/ZFS_> .
+@prefix ZP: <http://purl.obolibrary.org/obo/ZP_> .
+@prefix dbSNP: <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=> .
+@prefix dbSNPIndividual: <http://www.ncbi.nlm.nih.gov/SNP/snp_ind.cgi?ind_id=> .
+@prefix dbVar: <http://www.ncbi.nlm.nih.gov/dbvar/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dictyBase: <http://dictybase.org/gene/> .
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix miRBase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+##
+
+:clinvar_little.owl a owl:Ontology ;
+   owl:imports <http://purl.obolibrary.org/obo/minerva-importer.owl> .   
+
+faldo:begin a owl:ObjectProperty .
+
+faldo:end a owl:ObjectProperty .
+
+faldo:location a owl:ObjectProperty .
+
+faldo:position a owl:DatatypeProperty .
+
+faldo:reference a owl:ObjectProperty .
+
+OBO:BFO_0000050 a owl:ObjectProperty .
+
+OBO:BFO_0000051 a owl:ObjectProperty .
+
+OBO:ERO_0000233 a owl:ObjectProperty .
+
+OBO:GENO_0000206 a owl:ObjectProperty .
+
+OBO:GENO_0000208 a owl:ObjectProperty .
+
+OBO:GENO_0000222 a owl:ObjectProperty .
+
+OBO:GENO_0000225 a owl:ObjectProperty .
+
+OBO:GENO_0000382 a owl:ObjectProperty .
+
+OBO:GENO_0000385 a owl:ObjectProperty .
+
+OBO:GENO_0000408 a owl:ObjectProperty .
+
+OBO:GENO_0000414 a owl:ObjectProperty .
+
+OBO:GENO_0000440 a owl:ObjectProperty .
+
+OBO:GENO_0000608 a owl:ObjectProperty .
+
+OBO:GENO_0000610 a owl:ObjectProperty .
+
+OBO:GENO_0000626 a owl:ObjectProperty .
+
+OBO:IAO_0000004 a owl:DatatypeProperty .
+
+OBO:IAO_00000136 a owl:ObjectProperty .
+
+OBO:IAO_0000115 a owl:AnnotationProperty .
+
+OBO:IAO_0000142 a owl:ObjectProperty .
+
+OBO:IAO_0100001 a owl:AnnotationProperty .
+
+OBO:RO_0000086 a owl:ObjectProperty .
+
+OBO:RO_0001000 a owl:ObjectProperty .
+
+OBO:RO_0002162 a owl:ObjectProperty .
+
+OBO:RO_0002204 a owl:ObjectProperty .
+
+OBO:RO_0002205 a owl:ObjectProperty .
+
+OBO:RO_0002331 a owl:ObjectProperty .
+
+OBO:RO_0002350 a owl:ObjectProperty .
+
+OBO:RO_0002351 a owl:ObjectProperty .
+
+OBO:RO_0002503 a owl:ObjectProperty .
+
+OBO:RO_0002513 a owl:ObjectProperty .
+
+OBO:RO_0002524 a owl:ObjectProperty .
+
+OBO:RO_0002525 a owl:ObjectProperty .
+
+OIO:consider a owl:AnnotationProperty .
+
+OIO:hasDbXref a owl:AnnotationProperty .
+
+OIO:hasExactSynonym a owl:AnnotationProperty .
+
+OIO:hasRelatedSynonym a owl:AnnotationProperty .
+
+:MONARCH_000059a60c3365a908aaf8d4313fc861 a Annotation: ;
+    :hasObject OBO:OMIM_612555 ;
+    :hasPredicate OBO:RO_0002200 ;
+    :hasSubject <http://www.ncbi.nlm.nih.gov/clinvar/variation/37845> .
+
+<http://www.ncbi.nlm.nih.gov/clinvar/variation/37845> a OBO:SO_0001483 ;
+    rdfs:label "NM_000059.3(BRCA2):c.353G>A (p.Arg118His)" ;
+    faldo:location <http://www.ncbi.nlm.nih.gov/clinvar/variation/37845-location> ;    
+    OBO:GENO_0000408 <http://www.ncbi.nlm.nih.gov/gene/675> ;
+    OBO:RO_0002200 OBO:OMIM_114480,
+        OBO:OMIM_612555,
+        OBO:SNOMED_254843006,
+        OBO:SNOMED_699346009,
+        GeneReviews:NBK1247,
+        MedGen:C0027672,
+        MedGen:C0346153,
+        MedGen:C2675520,
+        <http://www.orpha.net/ORDO/Orphanet_145> ;
+    OIO:hasExactSynonym "NM_000059.3:c.353G>A",
+        "NP_000050.2:p.Arg118His" ;
+    owl:sameAs dbSNP:rs80358603 .
+
+<http://www.ncbi.nlm.nih.gov/clinvar/variation/37845-location> a faldo:Region ;
+  faldo:begin <http://www.monarchinitiative.org/_CHR:GRCh37chr13-32899249>,
+              <http://www.monarchinitiative.org/_CHR:GRCh38chr13-32325112> ;
+  faldo:end <http://www.monarchinitiative.org/_CHR:GRCh37chr13-32899249>,
+              <http://www.monarchinitiative.org/_CHR:GRCh38chr13-32325112> .
