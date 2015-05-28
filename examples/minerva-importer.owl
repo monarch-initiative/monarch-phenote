@@ -5,4 +5,6 @@ Ontology(<http://purl.obolibrary.org/obo/minerva-importer.owl>
     Import(<http://purl.obolibrary.org/obo/do/subsets/test.owl>)
     Import(<http://purl.obolibrary.org/obo/hp/onset.owl>)
     Import(<http://purl.obolibrary.org/obo/genomic.owl>)
+    Import(<http://purl.obolibrary.org/obo/so.owl>)
+    Import(<http://biohackathon.org/resource/faldo>)
 )

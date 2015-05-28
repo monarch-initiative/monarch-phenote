@@ -212,7 +212,16 @@ OIO:hasRelatedSynonym a owl:AnnotationProperty .
     owl:sameAs dbSNP:rs80358603 .
 
 <http://www.ncbi.nlm.nih.gov/clinvar/variation/37845-location> a faldo:Region ;
-  faldo:begin <http://www.monarchinitiative.org/_CHR:GRCh37chr13-32899249>,
-              <http://www.monarchinitiative.org/_CHR:GRCh38chr13-32325112> ;
-  faldo:end <http://www.monarchinitiative.org/_CHR:GRCh37chr13-32899249>,
-              <http://www.monarchinitiative.org/_CHR:GRCh38chr13-32325112> .
+  faldo:begin :GRCh38chr13-32325112 ;
+  faldo:end :GRCh38chr13-32325112 .
+
+:GRCh38chr13-32325112 a faldo:Position ;
+  faldo:reference :GRCh37chr13 ;
+  faldo:position "32899249"^^xsd:int .
+
+:GRCh38chr13 a SO:0000340 ;
+  rdfs:label "chr13" .
+  
+
+
+

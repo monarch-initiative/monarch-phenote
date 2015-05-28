@@ -8,4 +8,8 @@
   <uri name="http://purl.obolibrary.org/obo/hp/onset.owl" uri="onset.owl"/>
   <uri name="http://purl.obolibrary.org/obo/minerva-importer.owl" uri="minerva-importer.owl"/>
   <uri name="http://purl.obolibrary.org/obo/genomic.owl" uri="genomic.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/so/subsets/alterations.owl" uri="alterations.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/so.owl" uri="so.owl"/>
+  <uri name="http://biohackathon.org/resource/faldo" uri="faldo.ttl"/>
+
 </catalog>
