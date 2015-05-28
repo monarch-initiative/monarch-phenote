@@ -1,0 +1,792 @@
+@prefix : <http://purl.obolibrary.org/obo/so/subsets/alterations.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://purl.obolibrary.org/obo/so/subsets/alterations.owl> .
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations.owl> rdf:type owl:Ontology ;
+                                                            
+                                                            <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "1.2"^^xsd:string .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#AAMOD
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#AAMOD> rdf:type owl:AnnotationProperty ;
+                                                              
+                                                              rdfs:subPropertyOf <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty> .
+
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#BS
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#BS> rdf:type owl:AnnotationProperty ;
+                                                           
+                                                           rdfs:subPropertyOf <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty> .
+
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#DBVAR
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#DBVAR> rdf:type owl:AnnotationProperty ;
+                                                              
+                                                              rdfs:subPropertyOf <http://www.geneontology.org/formats/oboInOwl#SubsetProperty> .
+
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#RNAMOD
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#RNAMOD> rdf:type owl:AnnotationProperty ;
+                                                               
+                                                               rdfs:subPropertyOf <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty> .
+
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#SOFA
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#SOFA> rdf:type owl:AnnotationProperty ;
+                                                             
+                                                             rdfs:subPropertyOf <http://www.geneontology.org/formats/oboInOwl#SubsetProperty> .
+
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#VAR
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#VAR> rdf:type owl:AnnotationProperty ;
+                                                            
+                                                            rdfs:subPropertyOf <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty> .
+
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#aa1
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#aa1> rdf:type owl:AnnotationProperty ;
+                                                            
+                                                            rdfs:subPropertyOf <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty> .
+
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#aa3
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#aa3> rdf:type owl:AnnotationProperty ;
+                                                            
+                                                            rdfs:subPropertyOf <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty> .
+
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#biosapiens
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#biosapiens> rdf:type owl:AnnotationProperty ;
+                                                                   
+                                                                   rdfs:subPropertyOf <http://www.geneontology.org/formats/oboInOwl#SubsetProperty> .
+
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#dbsnp
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#dbsnp> rdf:type owl:AnnotationProperty ;
+                                                              
+                                                              rdfs:subPropertyOf <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty> .
+
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#dbvar
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#dbvar> rdf:type owl:AnnotationProperty ;
+                                                              
+                                                              rdfs:subPropertyOf <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty> .
+
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#ebi_variants
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#ebi_variants> rdf:type owl:AnnotationProperty ;
+                                                                     
+                                                                     rdfs:subPropertyOf <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty> .
+
+
+
+###  http://www.geneontology.org/formats/oboInOwl#SubsetProperty
+
+<http://www.geneontology.org/formats/oboInOwl#SubsetProperty> rdf:type owl:AnnotationProperty .
+
+
+
+###  http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty
+
+<http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty> rdf:type owl:AnnotationProperty .
+
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+
+rdfs:label rdf:type owl:AnnotationProperty .
+
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#contains
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#contains> rdf:type owl:ObjectProperty ,
+                                                                          owl:TransitiveProperty .
+
+
+
+###  http://purl.obolibrary.org/obo/so/subsets/alterations#has_quality
+
+<http://purl.obolibrary.org/obo/so/subsets/alterations#has_quality> rdf:type owl:ObjectProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/SO_0000001
+
+<http://purl.obolibrary.org/obo/SO_0000001> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "region"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0000110> ;
+                                            
+                                            owl:disjointWith <http://purl.obolibrary.org/obo/SO_0000699> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0000110
+
+<http://purl.obolibrary.org/obo/SO_0000110> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "sequence_feature"^^xsd:string ;
+                                            
+                                            owl:disjointWith <http://purl.obolibrary.org/obo/SO_0000240> ,
+                                                             <http://purl.obolibrary.org/obo/SO_0000400> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0000159
+
+<http://purl.obolibrary.org/obo/SO_0000159> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "deletion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001059> ,
+                                                            <http://purl.obolibrary.org/obo/SO_0001411> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0000199
+
+<http://purl.obolibrary.org/obo/SO_0000199> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "translocation"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001059> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0000207
+
+<http://purl.obolibrary.org/obo/SO_0000207> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "simple_sequence_length_variation"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0000248> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0000240
+
+<http://purl.obolibrary.org/obo/SO_0000240> rdf:type owl:Class .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0000248
+
+<http://purl.obolibrary.org/obo/SO_0000248> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "sequence_length_variation"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000002> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0000400
+
+<http://purl.obolibrary.org/obo/SO_0000400> rdf:type owl:Class .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0000667
+
+<http://purl.obolibrary.org/obo/SO_0000667> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "insertion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001059> ,
+                                                            <http://purl.obolibrary.org/obo/SO_0001411> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0000694
+
+<http://purl.obolibrary.org/obo/SO_0000694> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "SNP"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001483> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0000699
+
+<http://purl.obolibrary.org/obo/SO_0000699> rdf:type owl:Class .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0000781
+
+<http://purl.obolibrary.org/obo/SO_0000781> rdf:type owl:Class .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001013
+
+<http://purl.obolibrary.org/obo/SO_0001013> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "MNP"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0002007> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001019
+
+<http://purl.obolibrary.org/obo/SO_0001019> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "copy_number_variation"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001059> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001037
+
+<http://purl.obolibrary.org/obo/SO_0001037> rdf:type owl:Class .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001059
+
+<http://purl.obolibrary.org/obo/SO_0001059> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "sequence_alteration"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0000110> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001218
+
+<http://purl.obolibrary.org/obo/SO_0001218> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "transgenic_insertion"^^xsd:string ;
+                                            
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( <http://purl.obolibrary.org/obo/SO_0000667>
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/so/subsets/alterations#has_quality> ;
+                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/SO_0000781>
+                                                                                       ]
+                                                                                     )
+                                                                ] ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0000667> ,
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://purl.obolibrary.org/obo/so/subsets/alterations#has_quality> ;
+                                                              owl:someValuesFrom <http://purl.obolibrary.org/obo/SO_0000781>
+                                                            ] .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001411
+
+<http://purl.obolibrary.org/obo/SO_0001411> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "biological_region"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0000001> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001483
+
+<http://purl.obolibrary.org/obo/SO_0001483> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "SNV"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000002> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001742
+
+<http://purl.obolibrary.org/obo/SO_0001742> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "copy_number_gain"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001019> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001743
+
+<http://purl.obolibrary.org/obo/SO_0001743> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "copy_number_loss"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001019> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001744
+
+<http://purl.obolibrary.org/obo/SO_0001744> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "UPD"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001059> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001745
+
+<http://purl.obolibrary.org/obo/SO_0001745> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "maternal_uniparental_disomy"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001744> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001746
+
+<http://purl.obolibrary.org/obo/SO_0001746> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "paternal_uniparental_disomy"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001744> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001784
+
+<http://purl.obolibrary.org/obo/SO_0001784> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "complex_structural_alteration"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001785> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001785
+
+<http://purl.obolibrary.org/obo/SO_0001785> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "structural_alteration"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001059> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001837
+
+<http://purl.obolibrary.org/obo/SO_0001837> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "mobile_element_insertion"^^xsd:string ;
+                                            
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( <http://purl.obolibrary.org/obo/SO_0000667>
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/so/subsets/alterations#contains> ;
+                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/SO_0001037>
+                                                                                       ]
+                                                                                     )
+                                                                ] ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0000667> ,
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://purl.obolibrary.org/obo/so/subsets/alterations#contains> ;
+                                                              owl:someValuesFrom <http://purl.obolibrary.org/obo/SO_0001037>
+                                                            ] .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001838
+
+<http://purl.obolibrary.org/obo/SO_0001838> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "novel_sequence_insertion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0000667> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001872
+
+<http://purl.obolibrary.org/obo/SO_0001872> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "rearrangement_breakpoint"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001411> ,
+                                                            <http://purl.obolibrary.org/obo/SO_0001785> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001873
+
+<http://purl.obolibrary.org/obo/SO_0001873> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "interchromosomal_breakpoint"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001872> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001874
+
+<http://purl.obolibrary.org/obo/SO_0001874> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "intrachromosomal_breakpoint"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001872> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0001928
+
+<http://purl.obolibrary.org/obo/SO_0001928> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "distal_duplication"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000035> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_0002007
+
+<http://purl.obolibrary.org/obo/SO_0002007> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "MNV"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000002> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000002
+
+<http://purl.obolibrary.org/obo/SO_1000002> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "substitution"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001059> ,
+                                                            <http://purl.obolibrary.org/obo/SO_0001411> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000005
+
+<http://purl.obolibrary.org/obo/SO_1000005> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "complex_substitution"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000002> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000008
+
+<http://purl.obolibrary.org/obo/SO_1000008> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "point_mutation"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001483> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000009
+
+<http://purl.obolibrary.org/obo/SO_1000009> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "transition"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001483> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000010
+
+<http://purl.obolibrary.org/obo/SO_1000010> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "pyrimidine_transition"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000009> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000011
+
+<http://purl.obolibrary.org/obo/SO_1000011> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "C_to_T_transition"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000010> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000012
+
+<http://purl.obolibrary.org/obo/SO_1000012> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "C_to_T_transition_at_pCpG_site"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000011> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000013
+
+<http://purl.obolibrary.org/obo/SO_1000013> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "T_to_C_transition"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000010> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000014
+
+<http://purl.obolibrary.org/obo/SO_1000014> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "purine_transition"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000009> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000015
+
+<http://purl.obolibrary.org/obo/SO_1000015> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "A_to_G_transition"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000014> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000016
+
+<http://purl.obolibrary.org/obo/SO_1000016> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "G_to_A_transition"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000014> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000017
+
+<http://purl.obolibrary.org/obo/SO_1000017> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "transversion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001483> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000018
+
+<http://purl.obolibrary.org/obo/SO_1000018> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "pyrimidine_to_purine_transversion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000017> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000019
+
+<http://purl.obolibrary.org/obo/SO_1000019> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "C_to_A_transversion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000018> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000020
+
+<http://purl.obolibrary.org/obo/SO_1000020> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "C_to_G_transversion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000018> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000021
+
+<http://purl.obolibrary.org/obo/SO_1000021> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "T_to_A_transversion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000018> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000022
+
+<http://purl.obolibrary.org/obo/SO_1000022> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "T_to_G_transversion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000018> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000023
+
+<http://purl.obolibrary.org/obo/SO_1000023> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "purine_to_pyrimidine_transversion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000017> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000024
+
+<http://purl.obolibrary.org/obo/SO_1000024> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "A_to_C_transversion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000023> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000025
+
+<http://purl.obolibrary.org/obo/SO_1000025> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "A_to_T_transversion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000023> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000026
+
+<http://purl.obolibrary.org/obo/SO_1000026> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "G_to_C_transversion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000023> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000027
+
+<http://purl.obolibrary.org/obo/SO_1000027> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "G_to_T_transversion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000023> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000032
+
+<http://purl.obolibrary.org/obo/SO_1000032> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "indel"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001059> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000035
+
+<http://purl.obolibrary.org/obo/SO_1000035> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "duplication"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0000667> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000036
+
+<http://purl.obolibrary.org/obo/SO_1000036> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "inversion"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_0001059> ,
+                                                            <http://purl.obolibrary.org/obo/SO_0001411> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000039
+
+<http://purl.obolibrary.org/obo/SO_1000039> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "direct_tandem_duplication"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000173> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000040
+
+<http://purl.obolibrary.org/obo/SO_1000040> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "inverted_tandem_duplication"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000173> .
+
+
+
+###  http://purl.obolibrary.org/obo/SO_1000173
+
+<http://purl.obolibrary.org/obo/SO_1000173> rdf:type owl:Class ;
+                                            
+                                            rdfs:label "tandem_duplication"^^xsd:string ;
+                                            
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/SO_1000035> .
+
+
+
+
+###  Generated by the OWL API (version 0.2.2-SNAPSHOT) http://owlapi.sourceforge.net
+
