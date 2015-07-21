@@ -7,4 +7,5 @@ Ontology(<http://purl.obolibrary.org/obo/minerva-importer.owl>
     Import(<http://purl.obolibrary.org/obo/genomic.owl>)
     Import(<http://purl.obolibrary.org/obo/so.owl>)
     Import(<http://biohackathon.org/resource/faldo>)
+    Import(<http://purl.obolibrary.org/obo/monarch-merged.owl>)
 )

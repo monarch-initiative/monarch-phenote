@@ -11,5 +11,6 @@
   <uri name="http://purl.obolibrary.org/obo/so/subsets/alterations.owl" uri="alterations.owl"/>
   <uri name="http://purl.obolibrary.org/obo/so.owl" uri="so.owl"/>
   <uri name="http://biohackathon.org/resource/faldo" uri="faldo.ttl"/>
+  <uri name="http://purl.obolibrary.org/obo/monarch-merged.owl" uri="monarch-merged.owl"/>
 
 </catalog>
