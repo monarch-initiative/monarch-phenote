@@ -1,5 +1,7 @@
 WebPhenote, aka PhenoTua is a Monarch adaptation of [Noctua](http://noctua.berkeleybop.org/)
 
+The current instance can be used at http://create.monarchinitiative.org/
+
 We envision PhenoTua as a series of domain-specific widgets and custom forms layered on top of the generic Noctua framework - similar to Plugins for Protege. The exact nature of the architecture and coupling of the projects is evolving.
 
 Currently this repo only contains ultra-minimal files for making a mini test instance of noctua, but with phenotypes. Some of the code was developed in the main noctua repo on https://github.com/geneontology/noctua for convenience.
