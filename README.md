@@ -2,22 +2,25 @@ WebPhenote, aka PhenoTua is a Monarch adaptation of [Noctua](http://noctua.berke
 
 The current instance can be used at http://create.monarchinitiative.org/
 
-We envision PhenoTua as a series of domain-specific widgets and custom forms layered on top of the generic Noctua framework - similar to Plugins for Protege. The exact nature of the architecture and coupling of the projects is evolving.
+We envision WebPhenote as a series of domain-specific widgets and custom forms layered on top of the generic Noctua framework - similar to Plugins for Protege. The exact nature of the architecture and coupling of the projects is evolving.
 
-Currently this repo only contains ultra-minimal files for making a mini test instance of noctua, but with phenotypes. Some of the code was developed in the main noctua repo on https://github.com/geneontology/noctua for convenience.
+Currently this repo only contains ultra-minimal files for making a mini test instance of Noctua, but with phenotypes. Some of the code was developed in the main Noctua repo on [https://github.com/geneontology/noctua](https://github.com/geneontology/noctua) for convenience.
 
-In the future this repo may go away and be subsumed into a plugins/contrib repo for noctua.
+In the future this repo may go away and be subsumed into a plugins/contrib repo for Noctua.
 
 In the interim, the issue tracker should still be useful.
 
-## Technical Details
+## User Interface Details
 
-The interface is best understood in terms of layers: the base system which is a generic graph editing system,
-and on top of that are various high-level views, widgets, renderers or forms that abstract away from this lower-level representation.
-For example, the *disease-phenotype* form is currently [accessible from the FORM button here](http://create.monarchinitiative.org/).
-This presents fields such as "disease" and "phenotype" and "onset" with implicit relationships between them.
+The user interface is best understood in terms of layers:
 
-The underlying datamodel for PhenoTua is an OWL Abox - i.e. a set of individuals and assertions about those individuals. The individuals can be typed by any class or class expression, typically coming from monarch.owl
+- The base layer which is a generic graph editing system that can create, edit and save graphs (OWL models, typically).
+-  Views, widgets, renderers and forms that provide convenient and domain-focused tools that build upon the underlying graph editing system.
+
+For example, the *Disease-Phenotype* form is currently [accessible from the FORM button here](http://create.monarchinitiative.org/).
+This form presents fields such as "disease" and "phenotype" and "onset" with implicit relationships between them. This allows for easier creation and curation of this common type of relationship, while still generating the same format of models viewable in the graph editor.
+
+The underlying data model for WebPhenote is an OWL Abox - i.e. a set of individuals and assertions about those individuals. The individuals can be typed by any class or class expression, typically coming from `monarch.owl`.
 
 An example of a simple OWL assertion would be:
 
@@ -52,14 +55,20 @@ In the "exploded" view each distinct individual is shown as a box:
     
 In both cases, only OWL individuals are shown.
 
-The graph UI can be considered the "base metal" layer of the Noctua system, akin to the individual view in Protege. It is possible to say anything possible within the RO and monarch vocabularies here (provided the reasoner does not deem this inconsistent).
+The graph UI can be considered the "base metal" layer of the Noctua system, akin to the individual view in Protege. It is possible to say anything possible within the RO and Monarch vocabularies here (provided the reasoner does not deem this inconsistent).
 
 For most users this is too low level. WebPhenote will consist of forms and widgets that are "convenience layers" on top of this base system.
 
-For instance the disease-phenotype form here:
-http://poole.monarchinitiative.org:8910/basic/gomodel:55bbb58200000001
+For instance the disease-phenotype form here (this link may break periodically as we improve our WebPhenote example models):
 
-is intended to emulate a simple phenote configuration. The underlying model is still OWL individuals
+[http://create.monarchinitiative.org/basic/gomodel:56d4f20300000033](http://create.monarchinitiative.org/basic/gomodel:56d4f20300000033)
+
+is intended to emulate a simple phenote configuration describing the association of Parkinson's Disease with Vocal Tremor and Adult Onset. The underlying model is still OWL individuals and can be viewed via the graph editor here [http://create.monarchinitiative.org/editor/graph/gomodel:56d4f20300000033](http://create.monarchinitiative.org/editor/graph/gomodel:56d4f20300000033)
+
+
+
+
+
 
 
     
