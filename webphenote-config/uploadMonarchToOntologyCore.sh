@@ -6,8 +6,7 @@
 # Use the mirrorOntologyLocally.sh script to prepare this cache.
 #
 
-#export OWLTOOLS_JAR="../java/lib/owltools-runner-all.jar"
-export OWLTOOLS_JAR="../../owltools/OWLTools-Runner/bin/owltools-runner-all.jar"
+export OWLTOOLS_JAR="/opt/owltools/OWLTools-Runner/bin/owltools-runner-all.jar"
 export OWLTOOLS="java -Xms5500m -Xmx20500m -DentityExpansionLimit=4086000 -Djava.awt.headless=true -jar ${OWLTOOLS_JAR}"
 
 export CACHEDIR=`pwd`/cached-models
