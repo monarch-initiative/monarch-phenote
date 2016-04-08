@@ -12,6 +12,8 @@ In the interim, the issue tracker should still be useful.
 
 ## User Interface Details
 
+[![Join the chat at https://gitter.im/monarch-initiative/monarch-phenote](https://badges.gitter.im/monarch-initiative/monarch-phenote.svg)](https://gitter.im/monarch-initiative/monarch-phenote?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The user interface is best understood in terms of layers:
 
 - The base layer which is a generic graph editing system that can create, edit and save graphs (OWL models, typically).
