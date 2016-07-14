@@ -1,9 +1,39 @@
 -
+  nickname: 'Matthew Brush'
+  email-md5:
+    - 693f54b57c5b0fd811daaa764f0a408a
+  authorizations:
+    noctua-go:
+      allow-edit: true
+  uri: 'http://orcid.org/0000-0002-1048-5019'
+  organization: OHSU
+  xref: 'OHSUMI:mb'
+-
+  nickname: 'Jim Balhoff'
+  email-md5:
+    - f28e1be9fc622bffbecb166378ef2456
+  authorizations:
+    noctua-go:
+      allow-edit: true
+  uri: 'http://orcid.org/0000-0002-8688-6599'
+  organization: OHSU
+  xref: 'NESCMI:jpb'
+-
+  nickname: 'Erin Foster'
+  email-md5:
+    - 6c1b87e090990c775e3127eb15d0114f
+  authorizations:
+    noctua-go:
+      allow-edit: true
+  uri: 'http://orcid.org/0000-0001-6908-9849'
+  organization: OHSU
+  xref: 'OHSUMI:ef'
+-
   nickname: 'Dan Keith'
   email-md5:
     - 1da7b1538b4b21f1cfe7ce462965a549
   authorizations:
-    noctua-monarch:
+    noctua-go:
       allow-edit: true
   uri: 'http://orcid.org/0000-0002-1643-6242'
   organization: OHSU
@@ -13,7 +43,7 @@
   email-md5:
     - 2c3e08f58b80ed58f692a238af40d3d6
   authorizations:
-    noctua-monarch:
+    noctua-go:
       allow-edit: true
   uri: 'http://orcid.org/0000-0002-9353-5498'
   organization: OHSU
@@ -403,8 +433,8 @@
     - 17d2b31399e746373f3b18f7f65ab7fe
   organization: OHSU
   authorizations:
-    termgenie-go:
-      allow-write: true
+    noctua-go:
+      allow-edit: true
 -
   uri: 'http://orcid.org/0000-0003-3212-6364'
   xref: 'GOC:ha'
@@ -2219,7 +2249,7 @@
   uri: 'GOC:pnr'
   xref: 'GOC:pnr'
   email-md5:
-    - c727817e3b98721cf962f69613afd192
+    - 7e344a83c11dec211b5be2e312bf16f4
   authorizations:
     noctua-go:
       allow-edit: true
