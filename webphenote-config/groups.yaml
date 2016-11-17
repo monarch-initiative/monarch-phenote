@@ -1,0 +1,22 @@
+####
+#### Metadata on Monarch groups, derived from GOC groups
+#### See https://github.com/geneontology/go-site/tree/master/metadata
+####
+-
+  label: 'Monarch'
+  id: https://monarchinitiative.org
+-
+  label: 'LBL'
+  id: http://lbl.gov
+-
+  label: 'GO Central'
+  id: http://geneontology.org
+-
+  label: 'Planteome'
+  id: http://planteome.org
+-
+  label: 'Berkeley BOP'
+  id: http://berkeleybop.org
+-
+  label: 'ZFIN'
+  id: http://zfin.org
